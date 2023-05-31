@@ -1,4 +1,4 @@
-#Budowanie
+# Budowanie
 FROM openjdk:11 AS build
 
 LABEL author="Mateusz Zajaczkowski"
