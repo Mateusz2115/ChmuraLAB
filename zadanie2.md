@@ -6,10 +6,10 @@ LABEL author="Mateusz Zajaczkowski"
 # Katalog roboczy
 WORKDIR /app
 
-#Kompilacja
+# Kompilacja
 RUN javac Server.java
 
-#Uruchomienie
+# Uruchomienie
 FROM openjdk:11-jre-slim
 
 # Katalog roboczy
